@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    color: #222;
+}
+
+header {
+    background: white;
+    padding: 20px 30px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.welcome,
+.card {
+    background: white;
+    padding: 22px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.welcome h1 {
+    margin-top: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 18px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
